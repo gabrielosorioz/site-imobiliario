@@ -40,14 +40,14 @@
         - #HEADER 
      -->
 
-     <header class="header active" data-header>
+     <header class="header" data-header>
         <div class="container">
 
             <a href="#" class="logo">
                 <img src="./assets/images/logo.png" width="190" height="28" alt="wealthome">
             </a>
 
-            <nav class="navbar active" data-navbar>
+            <nav class="navbar" data-navbar>
                 
                 <ul class="navbar-list">
 
@@ -90,6 +90,86 @@
 
         </div>
      </header>
+
+     
+
+     <main>
+        <article>
+
+            <!--    
+                - #HERO
+            -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="headline-large hero-title">Encontre um lugar onde você possa ser você mesmo.</h1>
+                    
+                        <p class="body-large hero-text">
+                            Se você procura um lar que combine com você, não desista. Continue a procurar até encontrar um lugar que o faça se sentir em casa.
+                        </p>
+
+                        <form action="./" method="get" class="search-bar">
+
+                            <label class="search-item">
+                                <span class="label-medium label">Deseja</span>
+                                
+                                <select name="want-to" id="" class="search-item-field body-medium">
+                                    <option value="buy" selected>Comprar</option>
+                                    <option value="sell">Vender</option>
+                                    <option value="rent">Alugar</option>
+                                </select>
+                                <span class="material-symbols-rounded" aria-hidden="true">real_estate_agent</span>
+                            </label>
+
+                            <label class="search-item">
+                                <span class="label-medium label">Tipo de propriedade</span>
+                                
+                                <select name="property-type" id="" class="search-item-field body-medium">
+                                    <option value="any" selected>Todos</option>
+                                    <option value="houses">Casas</option>
+                                    <option value="apartments">Apartamentos</option>
+                                    <option value="villa">Moradia</option>
+                                    <option value="townhome">Geminados</option>
+                                    <option value="loft">Loft</option>
+                                </select>
+                                <span class="material-symbols-rounded" aria-hidden="true">gite</span>
+                            </label>
+
+                            <label class="search-item">
+                                <span class="label-medium label">Local</span>
+                                
+                                <input type="text" name="location" placeholder="Rua, Cidade, Cep..." class="search-item-field body-medium">
+
+                                <span class="material-symbols-rounded" aria-hidden="true">location_on</span>
+                            </label>
+
+                            <button type="submit" class="search-btn">
+                               <span class="material-symbols-rounded" aria-hidden="true">pesquisar</span> 
+                                
+                                <span class="label-medium">Pesquisar</span>
+                            </button>
+
+
+                        </form>
+
+
+
+                    </div>
+
+                    <img src="assets/images/hero.png" width="816" height="659" role="presentation"
+                    class="hero-banner">
+
+                    <img src="assets/images/bg-pattern.png" width="1240" height="840" role="presentation"
+                    class="bg-pattern">
+
+                </div>
+            </section>
+
+
+
+        </article>
+     </main>
+
 
 
 </body>
