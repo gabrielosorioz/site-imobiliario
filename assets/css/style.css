@@ -838,10 +838,44 @@ body  {
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
+.footer {
+  background-color: var(--primary-20);
+  color: var(--neutral-90);
+}
 
 
+.footer-top .container {
+  padding-block: 24px;
+  display: grid;
+  gap: 24px;
+}
 
+.foot
 
+.footer-text  { margin-block:16px;}
+.footer-list-title { margin-block-end:16px; color: var(--neutral-98);}
+.footer-brand { padding-top: 16px;}
+.footer-list {
+  display:grid;
+  gap: 16px;
+
+}
+.footer-link { transition: var(--transition-duration-quick) var(--transition-easing-quick);}
+.footer-link { color: var(--neutral-80);}
+.footer-link:where(:hover, :focus-visible) { color: var(--primary-100);}
+
+.social-list  {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-bottom  { border-block-start: 1px solid var(--neutral-20);}
+
+.footer-bottom .container {
+  padding-block: 20px;
+  display: grid;
+  justify-content: center;
+}
 
 /*-----------------------------------*\
   #MEDIA QUERIES
